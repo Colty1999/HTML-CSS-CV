@@ -1,0 +1,151 @@
+body {
+  background-color: #f6f7fb;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+  display: flex;
+  background-color: #fff;
+  width: 1200px;
+  margin: 40px auto;
+  box-shadow: 10px 10px 20px 0px hsla(0, 0%, 0%, 0.1);
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* common elements */
+
+.Left-side-title,
+.left-side-pointer,
+.right-side {
+  font-weight: bold;
+}
+
+.left-side-info,
+.about-me-description,
+.right-side-info,
+.link,
+.left-side-pointer {
+  font-size: 16px;
+}
+
+.link,
+.left-side-info,
+.right-side-info {
+  font-weight: normal;
+}
+
+.left-side-pointer,
+.right-side-info {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+/* --------------------------------------------- */
+/* common elemets left */
+
+.link:hover,
+.left-side,
+.left-side-pointer {
+  color: #fff;
+}
+
+.about-me,
+.personal-data,
+.contact {
+  padding: 0 20px 20px 20px;
+}
+
+.link,
+.left-side-pointer {
+  line-height: 17px;
+}
+
+/* --------------------------------------------- */
+/* left side */
+
+.left-side {
+  background-color: rgba(194, 76, 18, 0.822);
+  width: 360px;
+}
+
+.Left-side-title {
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.li-left-side {
+  color: #3b1807;
+}
+
+.about-me {
+  padding-top: 20px;
+}
+
+.about-me-description::before {
+  content: '\2003';
+}
+
+.about-me-description {
+  padding-left: 20px;
+}
+
+/* --------------------------------------------- */
+/* common elements right */
+
+.skills,
+.experience,
+.education,
+.main-occupation {
+  margin-bottom: 60px;
+}
+
+.main-occupation,
+.right-side-time {
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 5px;
+}
+
+.right-side-pointer,
+.right-side-time {
+  font-size: 18px;
+}
+
+/* --------------------------------------------- */
+/* right side*/
+
+.right-side {
+  padding: 80px;
+  color: #2a2a2a;
+}
+.main-name {
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 5px;
+}
+
+.main-occupation {
+  font-size: 25px;
+}
+
+.Right-side-title {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.right-side-pointer {
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.right-side-time {
+  margin-bottom: 30px;
+}
+
+.education-place {
+  padding-bottom: 20px;
+}
